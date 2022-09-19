@@ -1,0 +1,37 @@
+syntax = "proto3";
+package tutorial;
+
+// option optimize_for = LITE_RUNTIME;
+
+message Subject {
+  string major = 1;
+  float score = 2;
+}
+
+message Student {
+  int32 id = 6;
+  string name = 1;
+  int32 age = 2;
+
+  enum GenderType {
+    GT_BOY = 0;
+    GT_GIRL = 1;
+  }
+
+  GenderType gender = 3;
+  string homeAddress = 4;
+
+  repeated Subject subjects = 5;
+}
+
+message StudentRequest {
+  int32 id = 2;
+}
+
+message StudentRespond {
+  Student student = 1;
+}
+
+message ClassInfo {
+  repeated Student students = 1;
+}

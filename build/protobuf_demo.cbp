@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="protobuf_demo" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\common\;CMake Files\serialize\;CMake Files\reflect\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/zhoukang/projects/mygithub/protobuf_demo/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/zhoukang/projects/mygithub/protobuf_demo/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/zhoukang/projects/mygithub/protobuf_demo/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="serialize_demo">
+         <Option output="/home/zhoukang/projects/mygithub/protobuf_demo/build/serialize_demo" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zhoukang/projects/mygithub/protobuf_demo/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zhoukang/local/protobuf/include" />
+            <Add directory="/home/zhoukang/projects/mygithub/protobuf_demo/common" />
+            <Add directory="/home/zhoukang/projects/mygithub/protobuf_demo/reflect" />
+            <Add directory="/home/zhoukang/projects/mygithub/protobuf_demo/serialize" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/Makefile&quot;  VERBOSE=1 serialize_demo" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="serialize_demo/fast">
+         <Option output="/home/zhoukang/projects/mygithub/protobuf_demo/build/serialize_demo" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zhoukang/projects/mygithub/protobuf_demo/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zhoukang/local/protobuf/include" />
+            <Add directory="/home/zhoukang/projects/mygithub/protobuf_demo/common" />
+            <Add directory="/home/zhoukang/projects/mygithub/protobuf_demo/reflect" />
+            <Add directory="/home/zhoukang/projects/mygithub/protobuf_demo/serialize" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/Makefile&quot;  VERBOSE=1 serialize_demo/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="reflect_demo">
+         <Option output="/home/zhoukang/projects/mygithub/protobuf_demo/build/reflect_demo" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zhoukang/projects/mygithub/protobuf_demo/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zhoukang/local/protobuf/include" />
+            <Add directory="/home/zhoukang/projects/mygithub/protobuf_demo/common" />
+            <Add directory="/home/zhoukang/projects/mygithub/protobuf_demo/reflect" />
+            <Add directory="/home/zhoukang/projects/mygithub/protobuf_demo/serialize" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/Makefile&quot;  VERBOSE=1 reflect_demo" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="reflect_demo/fast">
+         <Option output="/home/zhoukang/projects/mygithub/protobuf_demo/build/reflect_demo" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zhoukang/projects/mygithub/protobuf_demo/build" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zhoukang/local/protobuf/include" />
+            <Add directory="/home/zhoukang/projects/mygithub/protobuf_demo/common" />
+            <Add directory="/home/zhoukang/projects/mygithub/protobuf_demo/reflect" />
+            <Add directory="/home/zhoukang/projects/mygithub/protobuf_demo/serialize" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/Makefile&quot;  VERBOSE=1 reflect_demo/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="classinfo">
+         <Option output="/home/zhoukang/projects/mygithub/protobuf_demo/build/common/libclassinfo.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zhoukang/projects/mygithub/protobuf_demo/build/common" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zhoukang/local/protobuf/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/common/Makefile&quot;  VERBOSE=1 classinfo" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/common/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/common/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="classinfo/fast">
+         <Option output="/home/zhoukang/projects/mygithub/protobuf_demo/build/common/libclassinfo.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zhoukang/projects/mygithub/protobuf_demo/build/common" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zhoukang/local/protobuf/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/common/Makefile&quot;  VERBOSE=1 classinfo/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/common/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/common/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="serialize">
+         <Option output="/home/zhoukang/projects/mygithub/protobuf_demo/build/serialize/libserialize.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zhoukang/projects/mygithub/protobuf_demo/build/serialize" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zhoukang/local/protobuf/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/serialize/Makefile&quot;  VERBOSE=1 serialize" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/serialize/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/serialize/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/serialize/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="serialize/fast">
+         <Option output="/home/zhoukang/projects/mygithub/protobuf_demo/build/serialize/libserialize.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zhoukang/projects/mygithub/protobuf_demo/build/serialize" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zhoukang/local/protobuf/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/serialize/Makefile&quot;  VERBOSE=1 serialize/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/serialize/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/serialize/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/serialize/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="reflect">
+         <Option output="/home/zhoukang/projects/mygithub/protobuf_demo/build/reflect/libreflect.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zhoukang/projects/mygithub/protobuf_demo/build/reflect" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zhoukang/local/protobuf/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/reflect/Makefile&quot;  VERBOSE=1 reflect" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/reflect/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/reflect/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/reflect/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="reflect/fast">
+         <Option output="/home/zhoukang/projects/mygithub/protobuf_demo/build/reflect/libreflect.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zhoukang/projects/mygithub/protobuf_demo/build/reflect" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zhoukang/local/protobuf/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/reflect/Makefile&quot;  VERBOSE=1 reflect/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/reflect/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/reflect/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zhoukang/projects/mygithub/protobuf_demo/build/reflect/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/zhoukang/projects/mygithub/protobuf_demo/common/ClassInfo.pb.cc">
+         <Option target="classinfo"/>
+      </Unit>
+      <Unit filename="/home/zhoukang/projects/mygithub/protobuf_demo/common/ClassOperator.cpp">
+         <Option target="classinfo"/>
+      </Unit>
+      <Unit filename="/home/zhoukang/projects/mygithub/protobuf_demo/common/ClassOperator.h">
+         <Option target="classinfo"/>
+      </Unit>
+      <Unit filename="/home/zhoukang/projects/mygithub/protobuf_demo/reflect/reflect.cpp">
+         <Option target="reflect"/>
+      </Unit>
+      <Unit filename="/home/zhoukang/projects/mygithub/protobuf_demo/reflect/reflect.h">
+         <Option target="reflect"/>
+      </Unit>
+      <Unit filename="/home/zhoukang/projects/mygithub/protobuf_demo/reflect_demo.cpp">
+         <Option target="reflect_demo"/>
+      </Unit>
+      <Unit filename="/home/zhoukang/projects/mygithub/protobuf_demo/serialize/serialize.cpp">
+         <Option target="serialize"/>
+      </Unit>
+      <Unit filename="/home/zhoukang/projects/mygithub/protobuf_demo/serialize/serialize.h">
+         <Option target="serialize"/>
+      </Unit>
+      <Unit filename="/home/zhoukang/projects/mygithub/protobuf_demo/serialize_demo.cpp">
+         <Option target="serialize_demo"/>
+      </Unit>
+      <Unit filename="/home/zhoukang/projects/mygithub/protobuf_demo/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/zhoukang/projects/mygithub/protobuf_demo/common/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\common\" />
+      </Unit>
+      <Unit filename="/home/zhoukang/projects/mygithub/protobuf_demo/serialize/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\serialize\" />
+      </Unit>
+      <Unit filename="/home/zhoukang/projects/mygithub/protobuf_demo/reflect/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\reflect\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
